@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS expenses(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(50) NOT NULL,
+    category VARCHAR(50) NOT NULL,
+    price DOUBLE NOT NULL,
+    date DATE NOT NULL);
